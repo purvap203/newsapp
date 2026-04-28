@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Fix placeholder color in dark mode */
+input::placeholder {
+  color: #aaaaaa !important;
+  opacity: 1;
+}
