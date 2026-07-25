@@ -110,7 +110,7 @@ render() {
           loader={
             <div className="row">
               {Array(3).fill(0).map((_, index) => (
-                <div className="col-md-4" key={index}>
+                <div className="col-md-4 d-flex" key={index}>
                   <NewsItemSkeleton darkMode={darkMode} />
                 </div>
               ))}
@@ -119,7 +119,7 @@ render() {
         >
           <div className="row">
             {this.state.articles.map((element) => (
-              <div className="col-md-4" key={element.url}>
+              <div className="col-md-4 d-flex" key={element.url}>
                 <NewsItem
                   title={element.title ? element.title : ""}
                   description={element.description ? element.description : ""}

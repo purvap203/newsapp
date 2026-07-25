@@ -21,7 +21,7 @@ export class NewsItem extends Component {
     };
 
     return (
-      <div className="my-3">
+      <div className="my-3 w-100">
         <div
           className="card h-100 shadow-sm"
           style={{
